@@ -1,0 +1,107 @@
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hide {
+    margin-left: -9999px;
+    font-size: 0;
+}
+
+/* header */
+
+#baco-header {
+    height: 250px;
+    background: silver;
+    display: flex;
+    flex-direction: column;
+}
+
+/* #baco-header li {
+    display: inline-block;
+} */
+
+#baco-header .layout:nth-child(1) {
+    align-self: flex-end;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#baco-header #lang {
+    width: 100px;
+    height: 25px;
+    align-self: center;
+    margin-left: 10px;
+    font-size: 22px;
+    /* margin-right: 18px; */
+    /* display: inline-block; */
+}
+
+#baco-header .side-menu ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    font-size: 27px;
+}
+
+#baco-header .side-menu ul li a {
+    color: #ffffff;
+}
+
+#baco-header .side-menu ul li input {
+    width: 80px;
+}
+
+#baco-header .side-menu ul li .fa-search {
+    padding-left: 8px;
+    font-size: 20px;
+    color: black;
+}
+
+#baco-header .layout:nth-child(2) {
+    width: 90%;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+
+#baco-header .logo .img {
+    display: inline-block;
+    width: 250px;
+    height: 160px;
+    /* border: 1px solid; */
+    /* margin-right: 200px; */
+    background: url("베이코딩_케이크_투명.png") no-repeat;
+    background-size: 200px;
+}
+
+#baco-header .main-menu {
+    font-size: 40px;
+    width: 100%;
+    margin-top: 55px;
+    /* margin-right: 50px; */
+}
+
+#baco-header .main-menu ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
